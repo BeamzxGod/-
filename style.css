@@ -6,11 +6,11 @@
 
 }
 
-body {
-
-    max-width: 100%;
-    height: auto;
-
+@media only screen and (max-width: 768px) {
+    .item {
+        flex: 1 1 100%;
+        /* องค์ประกอบจะขยายเต็มความกว้าง */
+    }
 }
 
 nav {
